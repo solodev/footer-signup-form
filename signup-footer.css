@@ -176,7 +176,8 @@ padding: 2rem 0;
 font-family: 'Arial';
 font-size: 13px;
 font-size: 1.3rem;
-
+margin-top: 40px;
+margin-top: 4rem;
 }
 .ct-footer .ct-post_footer ul.list-inline {
   font-size: 1.2rem;
@@ -221,4 +222,13 @@ address span {
 display: block;
 margin-top: 5px;
 margin-top: 0.5rem;
+}
+
+/* ================================
+  # Media Queries
+================================= */
+@media screen and (max-width: 768px) {
+	.col-xs-12 {
+		text-align: center;
+	}
 }
